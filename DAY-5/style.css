@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .tabmenu{
+    width: 50%;
+    border: 1px solid purple;
+    margin: 3rem auto;
+}
+
+.buttons{
+    display: flex;
+}
+.buttons button{
+    flex: 1;
+    padding: 10px 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.active{
+    background-color: burlywood;
+}
+
+.tab-content div{
+    padding: 15px;
+}
+
+header a{
+    font-size: 25px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header i{
+    font-size: 25px;
+    color: #333;
+    cursor: pointer;
+}
+
+
+#sidebar{
+    text-align: center;
+    height: 100vh;
+    width: 0%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: .6s;
+}
+
+#sidebar a{
+    display: block;
+    padding: 20px 0;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.menu-active{
+    width: 100% !important;
+}
+
+#close{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.slider{
+    position: relative;
+}
+
+ img{
+    width: 100%;
+}
+
+.next,.prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 15px 5px;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.prev{
+    left: 10px;
+}
+
+.next{
+    right: 10px;
+} */
+/* 
+#first{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    cursor: move;
+}
+
+
+.bottom{
+    width: 80%;
+    margin: 3rem auto;
+    border: 5px solid red;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom i{
+    font-size: 30px;
+    animation: icon 1s linear infinite;
+    opacity: 0;
+}
+
+@keyframes icon {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-10px);
+    }
+} */
+
+
+#DragArea{
+    margin-top: 2rem;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0px 0px 7px 1px inset grey;
+}
+
+.box{
+    width: 23%;
+    height: 150px;
+    background-color: red;
+    cursor: move;
+    color: #fff;
+}
+
+#DropArea{
+    margin-top: 1rem;
+    width: 100%;
+    height: 300px;
+    border: 3px solid red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
